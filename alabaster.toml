@@ -1,0 +1,102 @@
+# Original theme: Alabaster by Nikita Prokopov (Tonsky)
+# Ported to Helix by GitHub Copilot
+
+# UI elements
+
+"ui.background" = { bg = "off_white" }
+"ui.bufferline" = { fg = "black", bg = "off_white" }
+"ui.bufferline.active" = { fg = "black", bg = "off_white" }
+"ui.cursor" = { bg = "azure", fg = "white" }
+"ui.cursor.match" = { bg = "silver" }
+"ui.cursorcolumn.primary" = { bg = "white_smoke" }
+"ui.cursorcolumn.secondary" = { bg = "white_smoke" }
+"ui.cursorline" = { bg = "white_smoke" }
+"ui.cursorline.primary" = { bg = "white_smoke" }
+"ui.cursorline.secondary" = { bg = "white_smoke" }
+"ui.debug" = { fg = "orange" }
+"ui.help" = { fg = "black", bg = "off_white" }
+"ui.highlight.frameline" = { bg = "salmon" }
+"ui.linenr" = { fg = "sage" }
+"ui.linenr.selected" = { bg = "off_white", fg = "black" }
+"ui.menu" = { fg = "black", bg = "white_smoke" }
+"ui.menu.selected" = { bg = "powder_blue" }
+"ui.popup" = { fg = "black", bg = "white_smoke" }
+"ui.selection" = { bg = "powder_blue" }
+"ui.statusline" = { fg = "charcoal", bg = "pale_gray" }
+"ui.statusline.inactive" = { fg = "sage", bg = "white_smoke" }
+"ui.text" = "black"
+"ui.text.focus" = { bg = "powder_blue" }
+"ui.virtual" = "gainsboro"
+"ui.virtual.inlay-hint" = { fg = "light_gray" }
+"ui.virtual.inlay-hint.parameter" = { fg = "light_gray" }
+"ui.virtual.inlay-hint.type" = { fg = "light_gray" }
+"ui.virtual.jump-label" = { fg = "black", bg = "orange", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "white_smoke" }
+"ui.window" = { bg = "white_smoke" }
+
+# Syntax (Alabaster: only strings, constants, comments, definitions)
+
+"comment" = "red"
+"constant" = "purple"
+"constant.character.escape" = "gray"
+"function" = "blue"
+"keyword" = "black"
+"punctuation" = "gray"
+"string" = "green"
+"type" = "black"
+"type.builtin" = "purple"
+"variable" = "black"
+"variable.builtin" = "purple"
+
+# Markup
+
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "azure", modifiers = ["underlined"] }
+"markup.link.text" = "blue"
+"markup.raw" = "green"
+"markup.list" = "gray"
+
+# Diagnostics
+
+"error" = { fg = "red", bg = "light_rose" }
+"warning" = { fg = "orange", bg = "cream" }
+"info" = { fg = "blue" }
+"hint" = { fg = "gray" }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "orange", style = "curl" } }
+"diagnostic.info" = { fg = "blue", underline = { style = "curl" } }
+"diagnostic.hint" = { fg = "gray", underline = { style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+# Diff
+
+"diff.plus" = { fg = "green" }
+"diff.delta" = { fg = "gold" }
+"diff.minus" = { fg = "red" }
+
+[palette]
+azure = "#007acc"
+black = "#000000"
+blue = "#325cc0"
+charcoal = "#474747"
+cream = "#fcefc9"
+gainsboro = "#e0e0e0"
+gold = "#cb9000"
+gray = "#777777"
+green = "#448c27"
+light_gray = "#d0d0d0"
+light_rose = "#fce4e4"
+off_white = "#f7f7f7"
+orange = "#e8a028"
+pale_gray = "#dddddd"
+powder_blue = "#bfdbfe"
+purple = "#7a3e9d"
+red = "#aa3731"
+sage = "#9da39a"
+salmon = "#da8581"
+silver = "#cfcfcf"
+white = "#ffffff"
+white_smoke = "#f0f0f0"

@@ -1,0 +1,100 @@
+# Original theme: Alabaster Dark by Nikita Prokopov (Tonsky)
+# Ported to Helix by GitHub Copilot
+
+# UI elements
+
+"ui.background" = { bg = "midnight" }
+"ui.bufferline" = { fg = "silver", bg = "midnight" }
+"ui.bufferline.active" = { fg = "silver", bg = "midnight" }
+"ui.cursor" = { bg = "orange", fg = "white" }
+"ui.cursor.match" = { bg = "dark_slate" }
+"ui.cursorcolumn.primary" = { bg = "deep_teal" }
+"ui.cursorcolumn.secondary" = { bg = "deep_teal" }
+"ui.cursorline" = { bg = "deep_teal" }
+"ui.cursorline.primary" = { bg = "deep_teal" }
+"ui.cursorline.secondary" = { bg = "deep_teal" }
+"ui.debug" = { fg = "orange" }
+"ui.help" = { fg = "silver", bg = "midnight" }
+"ui.highlight.frameline" = { bg = "salmon" }
+"ui.linenr" = { fg = "slate" }
+"ui.linenr.selected" = { bg = "midnight", fg = "silver" }
+"ui.menu" = { fg = "silver", bg = "dark_slate" }
+"ui.menu.selected" = { bg = "sea" }
+"ui.popup" = { fg = "silver", bg = "deep_teal" }
+"ui.selection" = { bg = "sea" }
+"ui.statusline" = { fg = "silver", bg = "dark_slate" }
+"ui.statusline.inactive" = { fg = "slate", bg = "deep_teal" }
+"ui.text" = "silver"
+"ui.text.focus" = { bg = "sea" }
+"ui.virtual" = "dim_gray"
+"ui.virtual.inlay-hint" = { fg = "gray" }
+"ui.virtual.inlay-hint.parameter" = { fg = "gray" }
+"ui.virtual.inlay-hint.type" = { fg = "gray" }
+"ui.virtual.jump-label" = { fg = "silver", bg = "orange", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "deep_teal" }
+"ui.window" = { bg = "deep_teal" }
+
+# Syntax (Alabaster: only strings, constants, comments, definitions)
+
+"comment" = "yellow"
+"constant" = "purple"
+"constant.character.escape" = "slate"
+"function" = "blue"
+"keyword" = "silver"
+"punctuation" = "slate"
+"string" = "soft_green"
+"type" = "silver"
+"type.builtin" = "purple"
+"variable" = "silver"
+"variable.builtin" = "purple"
+
+# Markup
+
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "orange", modifiers = ["underlined"] }
+"markup.link.text" = "blue"
+"markup.raw" = "soft_green"
+"markup.list" = "slate"
+
+# Diagnostics
+
+"error" = { fg = "red", bg = "maroon" }
+"warning" = { fg = "orange", bg = "dark_olive" }
+"info" = { fg = "blue" }
+"hint" = { fg = "gray" }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "orange", style = "curl" } }
+"diagnostic.info" = { fg = "blue", underline = { style = "curl" } }
+"diagnostic.hint" = { fg = "gray", underline = { style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+# Diff
+
+"diff.plus" = { fg = "green" }
+"diff.delta" = { fg = "gold" }
+"diff.minus" = { fg = "red" }
+
+[palette]
+blue = "#71ade7"
+dark_olive = "#2b2515"
+dark_slate = "#293334"
+deep_teal = "#1a2324"
+dim_gray = "#5b5e5f"
+gold = "#d4a843"
+gray = "#5f7476"
+green = "#6abf40"
+maroon = "#2b1d1e"
+midnight = "#0e1415"
+orange = "#cd974b"
+purple = "#cc8bc9"
+red = "#d9736c"
+salmon = "#da8581"
+sea = "#3d4f50"
+silver = "#cecece"
+slate = "#708b8d"
+soft_green = "#95cb82"
+white = "#ffffff"
+yellow = "#d4ad6a"
