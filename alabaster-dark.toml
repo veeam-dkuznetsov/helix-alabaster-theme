@@ -8,15 +8,15 @@
 "ui.bufferline" = { fg = "silver", bg = "midnight" }
 "ui.bufferline.active" = { fg = "silver", bg = "midnight" }
 "ui.bufferline.background" = { bg = "deep_teal" }
-"ui.cursor" = { bg = "green", fg = "midnight" }
-"ui.cursor.normal" = { bg = "green", fg = "midnight" }
-"ui.cursor.insert" = { bg = "red", fg = "midnight" }
-"ui.cursor.select" = { bg = "gold", fg = "midnight" }
+"ui.cursor" = { bg = "silver", fg = "midnight" }
+"ui.cursor.normal" = { bg = "silver", fg = "midnight" }
+"ui.cursor.insert" = { bg = "silver", fg = "midnight" }
+"ui.cursor.select" = { bg = "silver", fg = "midnight" }
 "ui.cursor.match" = { bg = "dark_slate" }
-"ui.cursor.primary" = { bg = "green", fg = "midnight" }
-"ui.cursor.primary.normal" = { bg = "green", fg = "midnight" }
-"ui.cursor.primary.insert" = { bg = "red", fg = "midnight" }
-"ui.cursor.primary.select" = { bg = "gold", fg = "midnight" }
+"ui.cursor.primary" = { bg = "silver", fg = "midnight" }
+"ui.cursor.primary.normal" = { bg = "silver", fg = "midnight" }
+"ui.cursor.primary.insert" = { bg = "silver", fg = "midnight" }
+"ui.cursor.primary.select" = { bg = "silver", fg = "midnight" }
 "ui.cursorcolumn.primary" = { bg = "deep_teal" }
 "ui.cursorcolumn.secondary" = { bg = "deep_teal" }
 "ui.cursorline.primary" = { bg = "deep_teal" }
@@ -43,7 +43,7 @@
 "ui.selection.primary" = { bg = "sea" }
 "ui.statusline" = { fg = "silver", bg = "dark_slate" }
 "ui.statusline.inactive" = { fg = "slate", bg = "deep_teal" }
-"ui.statusline.normal" = { fg = "midnight", bg = "green", modifiers = ["bold"] }
+"ui.statusline.normal" = { fg = "silver", bg = "dark_slate", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "midnight", bg = "red", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "midnight", bg = "gold", modifiers = ["bold"] }
 "ui.statusline.separator" = { fg = "slate" }

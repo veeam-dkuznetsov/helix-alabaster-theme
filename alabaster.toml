@@ -8,15 +8,15 @@
 "ui.bufferline" = { fg = "black", bg = "off_white" }
 "ui.bufferline.active" = { fg = "black", bg = "off_white" }
 "ui.bufferline.background" = { bg = "white_smoke" }
-"ui.cursor" = { bg = "green", fg = "white" }
-"ui.cursor.normal" = { bg = "green", fg = "white" }
-"ui.cursor.insert" = { bg = "red", fg = "white" }
-"ui.cursor.select" = { bg = "gold", fg = "white" }
+"ui.cursor" = { bg = "charcoal", fg = "white" }
+"ui.cursor.normal" = { bg = "charcoal", fg = "white" }
+"ui.cursor.insert" = { bg = "charcoal", fg = "white" }
+"ui.cursor.select" = { bg = "charcoal", fg = "white" }
 "ui.cursor.match" = { bg = "silver" }
-"ui.cursor.primary" = { bg = "green", fg = "white" }
-"ui.cursor.primary.normal" = { bg = "green", fg = "white" }
-"ui.cursor.primary.insert" = { bg = "red", fg = "white" }
-"ui.cursor.primary.select" = { bg = "gold", fg = "white" }
+"ui.cursor.primary" = { bg = "charcoal", fg = "white" }
+"ui.cursor.primary.normal" = { bg = "charcoal", fg = "white" }
+"ui.cursor.primary.insert" = { bg = "charcoal", fg = "white" }
+"ui.cursor.primary.select" = { bg = "charcoal", fg = "white" }
 "ui.cursorcolumn.primary" = { bg = "white_smoke" }
 "ui.cursorcolumn.secondary" = { bg = "white_smoke" }
 "ui.cursorline.primary" = { bg = "white_smoke" }
@@ -43,7 +43,7 @@
 "ui.selection.primary" = { bg = "powder_blue" }
 "ui.statusline" = { fg = "charcoal", bg = "pale_gray" }
 "ui.statusline.inactive" = { fg = "sage", bg = "white_smoke" }
-"ui.statusline.normal" = { fg = "white", bg = "green", modifiers = ["bold"] }
+"ui.statusline.normal" = { fg = "charcoal", bg = "pale_gray", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "white", bg = "red", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "white", bg = "gold", modifiers = ["bold"] }
 "ui.statusline.separator" = { fg = "sage" }
