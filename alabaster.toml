@@ -4,59 +4,149 @@
 # UI elements
 
 "ui.background" = { bg = "off_white" }
+"ui.background.separator" = { fg = "pale_gray" }
 "ui.bufferline" = { fg = "black", bg = "off_white" }
 "ui.bufferline.active" = { fg = "black", bg = "off_white" }
+"ui.bufferline.background" = { bg = "white_smoke" }
 "ui.cursor" = { bg = "azure", fg = "white" }
+"ui.cursor.normal" = { bg = "azure", fg = "white" }
+"ui.cursor.insert" = { bg = "green", fg = "white" }
+"ui.cursor.select" = { bg = "purple", fg = "white" }
 "ui.cursor.match" = { bg = "silver" }
+"ui.cursor.primary" = { bg = "azure", fg = "white" }
+"ui.cursor.primary.normal" = { bg = "azure", fg = "white" }
+"ui.cursor.primary.insert" = { bg = "green", fg = "white" }
+"ui.cursor.primary.select" = { bg = "purple", fg = "white" }
 "ui.cursorcolumn.primary" = { bg = "white_smoke" }
 "ui.cursorcolumn.secondary" = { bg = "white_smoke" }
-"ui.cursorline" = { bg = "white_smoke" }
 "ui.cursorline.primary" = { bg = "white_smoke" }
 "ui.cursorline.secondary" = { bg = "white_smoke" }
 "ui.debug" = { fg = "orange" }
+"ui.debug.breakpoint" = { fg = "red" }
+"ui.debug.active" = { fg = "orange" }
+"ui.gutter" = { bg = "off_white" }
+"ui.gutter.selected" = { bg = "white_smoke" }
 "ui.help" = { fg = "black", bg = "off_white" }
+"ui.highlight" = { bg = "powder_blue" }
 "ui.highlight.frameline" = { bg = "salmon" }
 "ui.linenr" = { fg = "sage" }
 "ui.linenr.selected" = { bg = "off_white", fg = "black" }
 "ui.menu" = { fg = "black", bg = "white_smoke" }
 "ui.menu.selected" = { bg = "powder_blue" }
+"ui.menu.scroll" = { fg = "silver", bg = "white_smoke" }
+"ui.picker.header" = { fg = "charcoal", bg = "white_smoke" }
+"ui.picker.header.column" = { fg = "charcoal" }
+"ui.picker.header.column.active" = { fg = "azure" }
 "ui.popup" = { fg = "black", bg = "white_smoke" }
+"ui.popup.info" = { fg = "black", bg = "white_smoke" }
 "ui.selection" = { bg = "powder_blue" }
+"ui.selection.primary" = { bg = "powder_blue" }
 "ui.statusline" = { fg = "charcoal", bg = "pale_gray" }
 "ui.statusline.inactive" = { fg = "sage", bg = "white_smoke" }
+"ui.statusline.normal" = { fg = "white", bg = "azure", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "white", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "white", bg = "purple", modifiers = ["bold"] }
+"ui.statusline.separator" = { fg = "sage" }
 "ui.text" = "black"
 "ui.text.focus" = { bg = "powder_blue" }
+"ui.text.inactive" = { fg = "sage" }
+"ui.text.info" = { fg = "charcoal" }
+"ui.text.directory" = { fg = "blue" }
 "ui.virtual" = "gainsboro"
+"ui.virtual.indent-guide" = { fg = "gainsboro" }
 "ui.virtual.inlay-hint" = { fg = "light_gray" }
 "ui.virtual.inlay-hint.parameter" = { fg = "light_gray" }
 "ui.virtual.inlay-hint.type" = { fg = "light_gray" }
 "ui.virtual.jump-label" = { fg = "black", bg = "orange", modifiers = ["bold"] }
 "ui.virtual.ruler" = { bg = "white_smoke" }
+"ui.virtual.whitespace" = { fg = "gainsboro" }
+"ui.virtual.wrap" = { fg = "gainsboro" }
 "ui.window" = { bg = "white_smoke" }
 
 # Syntax (Alabaster: only strings, constants, comments, definitions)
 
+"attribute" = "black"
 "comment" = "red"
+"comment.line" = "red"
+"comment.line.documentation" = "red"
+"comment.block" = "red"
+"comment.block.documentation" = "red"
 "constant" = "purple"
+"constant.builtin" = "purple"
+"constant.builtin.boolean" = "purple"
+"constant.character" = "purple"
 "constant.character.escape" = "gray"
+"constant.numeric" = "purple"
+"constant.numeric.integer" = "purple"
+"constant.numeric.float" = "purple"
+"constructor" = "black"
 "function" = "blue"
+"function.builtin" = "blue"
+"function.method" = "black"
+"function.macro" = "blue"
+"function.special" = "blue"
 "keyword" = "black"
+"keyword.control" = "black"
+"keyword.control.conditional" = "black"
+"keyword.control.repeat" = "black"
+"keyword.control.import" = "black"
+"keyword.control.return" = "black"
+"keyword.control.exception" = "black"
+"keyword.operator" = "black"
+"keyword.directive" = "black"
+"keyword.function" = "black"
+"keyword.storage.type" = "black"
+"keyword.storage.modifier" = "black"
+"label" = "black"
+"namespace" = "black"
+"operator" = "gray"
 "punctuation" = "gray"
+"punctuation.delimiter" = "gray"
+"punctuation.bracket" = "gray"
+"punctuation.special" = "gray"
+"special" = "black"
 "string" = "green"
+"string.regexp" = "green"
+"string.special" = "green"
+"string.special.symbol" = "green"
+"string.special.path" = "green"
+"string.special.url" = "green"
+"tag" = "black"
+"tag.builtin" = "black"
 "type" = "black"
 "type.builtin" = "purple"
+"type.parameter" = "black"
+"type.enum.variant" = "black"
 "variable" = "black"
 "variable.builtin" = "purple"
+"variable.parameter" = "black"
+"variable.other.member" = "black"
 
 # Markup
 
 "markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "gray" }
+"markup.heading.1" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "blue", modifiers = ["bold"] }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.link.url" = { fg = "azure", modifiers = ["underlined"] }
 "markup.link.text" = "blue"
+"markup.link.label" = "blue"
+"markup.quote" = { modifiers = ["italic"] }
 "markup.raw" = "green"
+"markup.raw.inline" = "green"
+"markup.raw.block" = "green"
 "markup.list" = "gray"
+"markup.list.unnumbered" = "gray"
+"markup.list.numbered" = "gray"
+"markup.list.checked" = { fg = "green" }
+"markup.list.unchecked" = { fg = "gray" }
 
 # Diagnostics
 
@@ -74,8 +164,19 @@
 # Diff
 
 "diff.plus" = { fg = "green" }
+"diff.plus.gutter" = { fg = "green" }
 "diff.delta" = { fg = "gold" }
+"diff.delta.gutter" = { fg = "gold" }
 "diff.minus" = { fg = "red" }
+"diff.minus.gutter" = { fg = "red" }
+
+# Snippet
+
+"tabstop" = { bg = "cream" }
+
+# Rainbow brackets
+
+rainbow = ["blue", "purple", "green", "gold", "red", "azure"]
 
 [palette]
 azure = "#007acc"

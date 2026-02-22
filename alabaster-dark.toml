@@ -4,59 +4,149 @@
 # UI elements
 
 "ui.background" = { bg = "midnight" }
+"ui.background.separator" = { fg = "dark_slate" }
 "ui.bufferline" = { fg = "silver", bg = "midnight" }
 "ui.bufferline.active" = { fg = "silver", bg = "midnight" }
+"ui.bufferline.background" = { bg = "deep_teal" }
 "ui.cursor" = { bg = "orange", fg = "white" }
+"ui.cursor.normal" = { bg = "orange", fg = "white" }
+"ui.cursor.insert" = { bg = "green", fg = "midnight" }
+"ui.cursor.select" = { bg = "purple", fg = "midnight" }
 "ui.cursor.match" = { bg = "dark_slate" }
+"ui.cursor.primary" = { bg = "orange", fg = "white" }
+"ui.cursor.primary.normal" = { bg = "orange", fg = "white" }
+"ui.cursor.primary.insert" = { bg = "green", fg = "midnight" }
+"ui.cursor.primary.select" = { bg = "purple", fg = "midnight" }
 "ui.cursorcolumn.primary" = { bg = "deep_teal" }
 "ui.cursorcolumn.secondary" = { bg = "deep_teal" }
-"ui.cursorline" = { bg = "deep_teal" }
 "ui.cursorline.primary" = { bg = "deep_teal" }
 "ui.cursorline.secondary" = { bg = "deep_teal" }
 "ui.debug" = { fg = "orange" }
+"ui.debug.breakpoint" = { fg = "red" }
+"ui.debug.active" = { fg = "orange" }
+"ui.gutter" = { bg = "midnight" }
+"ui.gutter.selected" = { bg = "deep_teal" }
 "ui.help" = { fg = "silver", bg = "midnight" }
+"ui.highlight" = { bg = "sea" }
 "ui.highlight.frameline" = { bg = "salmon" }
 "ui.linenr" = { fg = "slate" }
 "ui.linenr.selected" = { bg = "midnight", fg = "silver" }
 "ui.menu" = { fg = "silver", bg = "dark_slate" }
 "ui.menu.selected" = { bg = "sea" }
+"ui.menu.scroll" = { fg = "sea", bg = "dark_slate" }
+"ui.picker.header" = { fg = "slate", bg = "dark_slate" }
+"ui.picker.header.column" = { fg = "slate" }
+"ui.picker.header.column.active" = { fg = "blue" }
 "ui.popup" = { fg = "silver", bg = "deep_teal" }
+"ui.popup.info" = { fg = "silver", bg = "deep_teal" }
 "ui.selection" = { bg = "sea" }
+"ui.selection.primary" = { bg = "sea" }
 "ui.statusline" = { fg = "silver", bg = "dark_slate" }
 "ui.statusline.inactive" = { fg = "slate", bg = "deep_teal" }
+"ui.statusline.normal" = { fg = "midnight", bg = "blue", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "midnight", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "midnight", bg = "purple", modifiers = ["bold"] }
+"ui.statusline.separator" = { fg = "slate" }
 "ui.text" = "silver"
 "ui.text.focus" = { bg = "sea" }
+"ui.text.inactive" = { fg = "slate" }
+"ui.text.info" = { fg = "silver" }
+"ui.text.directory" = { fg = "blue" }
 "ui.virtual" = "dim_gray"
+"ui.virtual.indent-guide" = { fg = "dim_gray" }
 "ui.virtual.inlay-hint" = { fg = "gray" }
 "ui.virtual.inlay-hint.parameter" = { fg = "gray" }
 "ui.virtual.inlay-hint.type" = { fg = "gray" }
 "ui.virtual.jump-label" = { fg = "silver", bg = "orange", modifiers = ["bold"] }
 "ui.virtual.ruler" = { bg = "deep_teal" }
+"ui.virtual.whitespace" = { fg = "dim_gray" }
+"ui.virtual.wrap" = { fg = "dim_gray" }
 "ui.window" = { bg = "deep_teal" }
 
 # Syntax (Alabaster: only strings, constants, comments, definitions)
 
+"attribute" = "silver"
 "comment" = "yellow"
+"comment.line" = "yellow"
+"comment.line.documentation" = "yellow"
+"comment.block" = "yellow"
+"comment.block.documentation" = "yellow"
 "constant" = "purple"
+"constant.builtin" = "purple"
+"constant.builtin.boolean" = "purple"
+"constant.character" = "purple"
 "constant.character.escape" = "slate"
+"constant.numeric" = "purple"
+"constant.numeric.integer" = "purple"
+"constant.numeric.float" = "purple"
+"constructor" = "silver"
 "function" = "blue"
+"function.builtin" = "blue"
+"function.method" = "silver"
+"function.macro" = "blue"
+"function.special" = "blue"
 "keyword" = "silver"
+"keyword.control" = "silver"
+"keyword.control.conditional" = "silver"
+"keyword.control.repeat" = "silver"
+"keyword.control.import" = "silver"
+"keyword.control.return" = "silver"
+"keyword.control.exception" = "silver"
+"keyword.operator" = "silver"
+"keyword.directive" = "silver"
+"keyword.function" = "silver"
+"keyword.storage.type" = "silver"
+"keyword.storage.modifier" = "silver"
+"label" = "silver"
+"namespace" = "silver"
+"operator" = "slate"
 "punctuation" = "slate"
+"punctuation.delimiter" = "slate"
+"punctuation.bracket" = "slate"
+"punctuation.special" = "slate"
+"special" = "silver"
 "string" = "soft_green"
+"string.regexp" = "soft_green"
+"string.special" = "soft_green"
+"string.special.symbol" = "soft_green"
+"string.special.path" = "soft_green"
+"string.special.url" = "soft_green"
+"tag" = "silver"
+"tag.builtin" = "silver"
 "type" = "silver"
 "type.builtin" = "purple"
+"type.parameter" = "silver"
+"type.enum.variant" = "silver"
 "variable" = "silver"
 "variable.builtin" = "purple"
+"variable.parameter" = "silver"
+"variable.other.member" = "silver"
 
 # Markup
 
 "markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "slate" }
+"markup.heading.1" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "blue", modifiers = ["bold"] }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.link.url" = { fg = "orange", modifiers = ["underlined"] }
 "markup.link.text" = "blue"
+"markup.link.label" = "blue"
+"markup.quote" = { modifiers = ["italic"] }
 "markup.raw" = "soft_green"
+"markup.raw.inline" = "soft_green"
+"markup.raw.block" = "soft_green"
 "markup.list" = "slate"
+"markup.list.unnumbered" = "slate"
+"markup.list.numbered" = "slate"
+"markup.list.checked" = { fg = "green" }
+"markup.list.unchecked" = { fg = "slate" }
 
 # Diagnostics
 
@@ -74,8 +164,19 @@
 # Diff
 
 "diff.plus" = { fg = "green" }
+"diff.plus.gutter" = { fg = "green" }
 "diff.delta" = { fg = "gold" }
+"diff.delta.gutter" = { fg = "gold" }
 "diff.minus" = { fg = "red" }
+"diff.minus.gutter" = { fg = "red" }
+
+# Snippet
+
+"tabstop" = { bg = "dark_olive" }
+
+# Rainbow brackets
+
+rainbow = ["blue", "purple", "green", "gold", "red", "orange"]
 
 [palette]
 blue = "#71ade7"
