@@ -8,12 +8,12 @@
 "ui.bufferline" = { fg = "silver", bg = "midnight" }
 "ui.bufferline.active" = { fg = "silver", bg = "midnight" }
 "ui.bufferline.background" = { bg = "deep_teal" }
-"ui.cursor" = { bg = "orange", fg = "white" }
+"ui.cursor" = { bg = "green", fg = "midnight" }
 "ui.cursor.normal" = { bg = "green", fg = "midnight" }
 "ui.cursor.insert" = { bg = "red", fg = "midnight" }
 "ui.cursor.select" = { bg = "gold", fg = "midnight" }
 "ui.cursor.match" = { bg = "dark_slate" }
-"ui.cursor.primary" = { bg = "orange", fg = "white" }
+"ui.cursor.primary" = { bg = "green", fg = "midnight" }
 "ui.cursor.primary.normal" = { bg = "green", fg = "midnight" }
 "ui.cursor.primary.insert" = { bg = "red", fg = "midnight" }
 "ui.cursor.primary.select" = { bg = "gold", fg = "midnight" }
